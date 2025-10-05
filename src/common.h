@@ -8,6 +8,6 @@
 #include <stddef.h>
 #include <stdint.h>
 #include <stdlib.h>
-
-
+#define DEBUG_TRACE_EXECUTION
+#define DEBUG_PRINT_CODE
 #endif //CLOX_COMMON_H

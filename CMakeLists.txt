@@ -12,4 +12,12 @@ add_executable(clox src/main.c
         src/memory.c
         src/memory.h
         src/debug.c
-        src/debug.h)
+        src/debug.h
+        src/value.c
+        src/value.h
+        src/vm/vm.c
+        src/vm/vm.h
+        src/vm/compiler.c
+        src/vm/compiler.h
+        src/vm/scanner.c
+        src/vm/scanner.h)
